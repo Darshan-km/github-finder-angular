@@ -32,9 +32,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/popper.js/dist/popper.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -99,8 +96,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -129,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gitHub-profile-finder"
+    }
+  },
+  "defaultProject": "gitHub-profile-finder",
+  "cli": {
+    "analytics": "935c03d3-3f8e-413b-8ada-6ec2b7480849"
+  }
 }
